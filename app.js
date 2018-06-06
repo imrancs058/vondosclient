@@ -45,6 +45,7 @@ app.use('/floorplan',floor);
 
 
 module.exports=app;
-app.listen(config.app.port,function () {
-    console.log("server is listening at "+config.app.port);
+var port= process.env.PORT || config.app.port;
+app.listen(port,function () {
+    console.log("server is listening at "+port);
 });
