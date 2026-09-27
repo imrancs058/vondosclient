@@ -4,11 +4,11 @@
   "description": "vendors management software",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node api.js && node app"
   },
   "author": "mercury_sols",
   "license": "ISC",
-  "dependencies":{
+  "dependencies": {
     "aws-sdk": "^2.243.1",
     "body-parser": "^1.18.3",
     "connect-multiparty": "^2.1.0",
