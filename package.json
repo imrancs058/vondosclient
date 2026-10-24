@@ -4,7 +4,7 @@
   "description": "vendors management software",
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node init && node app"
   },
   "author": "mercury_sols",
   "license": "ISC",
